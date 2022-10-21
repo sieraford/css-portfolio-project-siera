@@ -12,11 +12,17 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #003752;
     color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     font-size: 48px;
-    margin-left: 40px;
+    padding-left: 5%;
+    padding-right: 10px;
+    background-color: #ffffff;
+    color: #003752;
 }
 
 header nav {
@@ -27,12 +33,13 @@ header nav {
 header nav ul {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
 }
 
 header nav ul li {  
     margin-left: 25px;
+    padding: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
 }
 
 a {
@@ -41,7 +48,7 @@ a {
 }
 
 .divider {
-    height: 400px;
+    height: 250px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/unsplash.jpg");
@@ -53,12 +60,27 @@ a {
     align-items: flex-end;
 }
 
+.divider h2 {
+    font-size: 38px;
+    padding:10px;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #003752;
+
+}
+
 main {
     width: 75%;
     margin-left: 20px;
 }
 
-main section {
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+main div {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -67,8 +89,12 @@ main section {
     display: inline;
 }
 
+.topic {
+    display: flex;
+    justify-content: flex-start;
+}
 
-main section h2 {
+main div h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
