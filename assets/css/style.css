@@ -131,6 +131,11 @@ p {
     width: 100%;
     margin-bottom: 25px;
     margin-left: 10px;
+    opacity: 0.7;
+}
+
+.main-project img:hover {
+    opacity: 1;
 }
 
 .main-project .title {
@@ -150,10 +155,16 @@ p {
     width: 49%;
 }
 .secondary-projects img {
-    height: 50%;
+    height: 60%;
     width: 100%;
     margin-left: 10px;
+    opacity: 0.7;
 }
+
+.secondary-projects img:hover {
+    opacity: 1;
+}
+
 
 .secondary-projects .title {
     position: relative;
