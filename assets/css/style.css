@@ -125,8 +125,8 @@ main section div h3 {
     font-size: 36px;
     border-right-style: var(--border-style);
     border-right-width: var(--border-width);
-    min-width: 157px;
-    max-width: 157px;
+    min-width: 160px;
+    max-width: 160px;
     margin-right: 20px;
     margin-left: 35px;
 }
