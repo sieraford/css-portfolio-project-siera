@@ -6,6 +6,9 @@
     --border-width: 3px;
     --default-opacity: 0.7;
     --hover-opacity: 1;
+    --img-title-bottom: 50px;
+    --img-title-left: 30px;
+    --border-style: solid;
 }
 
 * {
@@ -28,7 +31,6 @@ header {
 }
 
 header h1 {
-    font-size: 48px;
     padding-left: 70px;
     padding-right: 10px;
     background-color: var(--white-color);
@@ -57,7 +59,7 @@ header nav ul {
 header nav ul li {  
     margin-left: 25px;
     padding: 5px;
-    border-bottom-style: solid;
+    border-bottom-style: var(--border-style);
     border-bottom-width: var(--border-width);
 }
 
@@ -112,7 +114,7 @@ main {
 main section div h3 {
     padding-right: 10px;
     font-size: 36px;
-    border-right-style: solid;
+    border-right-style: var(--border-style);
     border-right-width: var(--border-width);
     min-width: 157px;
     max-width: 157px;
@@ -151,8 +153,8 @@ p {
 
 .main-project .title {
     position: relative;
-    bottom: 200px;
-    left: 100px;
+    bottom: var(--img-title-bottom);
+    left: var(--img-title-left);
     color: var(--white-color);
 }
 
@@ -180,8 +182,8 @@ p {
 
 .secondary-projects .title {
     position: relative;
-    bottom: 100px;
-    left: 50px;
+    bottom: var(--img-title-bottom);
+    left: var(--img-title-left);
     color: var(--white-color);
 }
 
@@ -202,16 +204,17 @@ h5 {
 #contact-me ul li {  
     margin-left: 25px;
     padding: 5px;
-    border-bottom-style: solid;
+    border-bottom-style: var(--border-style);
     border-bottom-width: var(--border-width);
 }
 
 #contact-me a {
     color: var(--navy-color);
     text-decoration: none;
+    text-align: center;
 }
 
-#resume a {
+#resume p {
     color: var(--navy-color);
     text-decoration: none;
     margin-left: 25px;
@@ -219,9 +222,14 @@ h5 {
     font-weight: bold;
 }
 
+@media screen and (min-width: 745px) {
+    h1.title {
+      font-size: 48px;
+    }
+  }
 
-@media screen and (max-width: 785px) {
-    header {
-        width: 100%;
+  @media screen and (max-width: 744px) {
+    h1.title {
+      font-size: 30px;
     }
   }
