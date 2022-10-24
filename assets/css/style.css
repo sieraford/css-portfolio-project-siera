@@ -11,6 +11,7 @@
     --border-style: solid;
 }
 
+/* General Styles */
 * {
     padding: 0;
     margin: 0;
@@ -20,6 +21,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header Styles */
 header {
     padding: 20px;
     font-family: var(--header-font);
@@ -93,6 +95,7 @@ a {
 
 }
 
+/* Main Content Styles */
 main {
     width: 100%;
     margin: 20px;
@@ -104,6 +107,12 @@ main {
     width: 80%;
 }
 
+p {
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+/* Work Section Styles */
 .topic {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--navy-color);
@@ -120,11 +129,6 @@ main section div h3 {
     max-width: 157px;
     margin-right: 20px;
     margin-left: 35px;
-}
-
-p {
-    font-size: 16px;
-    margin-left: 10px;
 }
 
 .projects {
@@ -191,6 +195,7 @@ h5 {
     font-size: 11px;
 }
 
+/* Contact Section Styles */
 #contact-me div {
     display: flex;
     align-items: center;
@@ -214,6 +219,7 @@ h5 {
     text-align: center;
 }
 
+/* Resume Styles */
 #resume p {
     color: var(--navy-color);
     text-decoration: none;
@@ -222,6 +228,7 @@ h5 {
     font-weight: bold;
 }
 
+/* Responsive Layout Styles */
 @media screen and (min-width: 745px) {
     h1.title {
       font-size: 48px;
