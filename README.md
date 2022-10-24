@@ -9,7 +9,6 @@ I applied the core skills I've recently learned about advanced CSS such as flexb
 Click [here](https://sieraford.github.io/css-portfolio-project-siera/) to view my portfolio. 
 
 ## Screenshots
-![Desktop](./assets/images/Portfolio.gif)
 
 ![Mobile](./assets/images/mobile.png)
 
