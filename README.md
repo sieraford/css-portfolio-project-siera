@@ -16,7 +16,7 @@ N/A
 
 ## Usage
 
-When you visit my portfolio, you will be presented with information about me, projects I've worked on (currently using placeholder images, names and links until I create more of my own), ways to contact me and my resume. You can click the links in the navigation bar to scroll to the corresponding section.
+When you visit my portfolio, you will be presented with information about me, projects I've worked on, ways to contact me and my resume. You can click the links in the navigation bar to scroll to the corresponding section.
 
 If you click on any of the projects in the work section, you will be taken to that deployed application. You can also click on any of the links in the contact me section and it will re-direct you accordingly.
 
